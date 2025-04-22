@@ -46,21 +46,24 @@ function loadingAnimation(){
 }
 loadingAnimation()
 
-document.addEventListener("mousemove",function(dets){
-    gsap.to("#cursor",{
-        left:dets.x,
-        top:dets.y
+function cursor4elem(){
+    document.addEventListener("mousemove",function(dets){
+        gsap.to("#cursor",{
+            left:dets.x,
+            top:dets.y
+        })
     })
-})
-
-document.querySelector("#fourelem").addEventListener("mouseenter",function(){
-    gsap.to("#cursor",{
-        transform: 'translate(-50%,-50%) scale(1)'
+    
+    document.querySelector("#fourelem").addEventListener("mouseenter",function(){
+        gsap.to("#cursor",{
+            transform: 'translate(-50%,-50%) scale(1)'
+        })
     })
-})
-
-document.querySelector("#fourelem").addEventListener("mouseleave",function(){
-    gsap.to("#cursor",{
-        transform: 'translate(-50%,-50%) scale(0)'
+    
+    document.querySelector("#fourelem").addEventListener("mouseleave",function(){
+        gsap.to("#cursor",{
+            transform: 'translate(-50%,-50%) scale(0)'
+        })
     })
-})
+}
+cursor4elem()
