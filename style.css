@@ -12,7 +12,16 @@
 html, body{
     height: 100%;
     width: 100%;
+    background-color: #f7f7f7;
    
+}
+#cursor {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%,-50%) scale(0);
 }
 
 #page1{
