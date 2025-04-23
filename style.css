@@ -396,4 +396,49 @@ hr{
         text-underline-offset: 6px;
         color: black;
       }
+
+      #fourelem{
+        /* margin-top: 0px;
+        margin-bottom: 0px; */
+        min-height: 65vh;
+        width: 100%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    
+    }
+    .fourpic{
+        height: 20vh;
+        width: 40%;
+        /* background-color: red; */
+        position: relative;
+        align-items: center;   /* vertical center */
+        justify-content: center; /* horizontal center */
+    }
+    .fourpic>img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        /* padding-right: 20px; */
+        /* padding-left: 10vh; */
+    }
+    .fourpic>p{
+        text-align: center;
+    }
+    #child1{
+        margin-top: 5vh; 
+    }
+    #child2{
+        margin-top: 5vh;
+    }
+    #child3{
+        margin-top: 2vh;
+    }
+    #child4{
+        margin-top: 2vh;
+    }
 }   
