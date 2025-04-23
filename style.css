@@ -269,9 +269,17 @@ hr{
         justify-content: center;
     }
     #play{
+        
+        margin-top: 45px;
+        background-color: black;
+        color: #fff;
+        font-size: 10px;
         position: absolute;
+        text-transform: uppercase;
+        font-family: futura;
+        border-radius: 50%;
         opacity: 1;
-        scale: 4;
+        scale: 1;
     }
     #ruler>p{
         font-weight: 500;
